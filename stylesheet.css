@@ -27,6 +27,12 @@ main {
     color: #222222;
 }
 
+main div1 {
+    text-align: center;
+    font-size: 1em;
+    color:#222222;
+}
+
 main a {
     color: #007BFF;
     text-decoration: none;
@@ -34,4 +40,21 @@ main a {
 
 main a:hover {
     color: #0056b3;
+}
+
+.students {
+    font-size: 1em;
+    color:#cc45ee;
+    -webkit-text-stroke: .25px black;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+footer div {
+    font-size: 1em;
+    color: #333;
 }

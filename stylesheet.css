@@ -21,6 +21,21 @@ header h1 {
     color: #333;
 }
 
+header button{
+    position: absolute;
+    font-size: .66em;
+    color: #b7a5da;
+    right: 150px;
+    border-width: 2.2px;
+    border-color: #b7a5da;
+    border-style: solid;
+    border-radius: 5px;
+    background-color:#333;
+}
+header button:hover {
+    color: #d1c4e9;
+    background-color: #f0f0f0;
+}
 main {
     text-align: center;
     font-size: 1.5em;
@@ -46,6 +61,12 @@ main a:hover {
     font-size: 1em;
     color:#cc45ee;
     -webkit-text-stroke: .25px black;
+}
+
+.test {
+    position: absolute;
+    right: -15px;
+    top: 35px;
 }
 
 footer {
